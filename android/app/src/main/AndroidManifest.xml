@@ -1,8 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="io.github.sprio.phoenix_channel_test_1">
+  <uses-permission android:name="android.permission.INTERNET" />
    <application
         android:label="phoenix_channel_test_1"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/ic_launcher"
+        android:usesCleartextTraffic="true">
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
